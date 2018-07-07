@@ -35,7 +35,7 @@
         subtitle = [[UILabel alloc] initWithFrame:subFrame];
         [subtitle setNumberOfLines:1];
         subtitle.font = [UIFont fontWithName:@"HelveticaNeue-UltraLight" size:16];
-        [subtitle setText:@"iOS 7.1 - iOS 11.1.2"];
+        [subtitle setText:@"iOS 7.1 ~ iOS 11.x"];
         [subtitle setBackgroundColor:[UIColor clearColor]];
         subtitle.textColor = [UIColor blackColor];
         subtitle.textAlignment = NSTextAlignmentCenter;
