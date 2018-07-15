@@ -36,6 +36,11 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"flex://patch/ColorFont-2-iOS-7.1-10.2/app/SpringBoard/id/33926"]]; 
 }
 
+- (void)github {
+
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/Lizynz/ColorFont2"]]; 
+}
+
 - (void)twitter {
      if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"tweetbot:"]]) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tweetbot:///user_profile/Lizynz1"]];

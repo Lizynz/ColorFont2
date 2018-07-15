@@ -8,7 +8,15 @@
 	        <key>cell</key>
 			<string>PSGroupCell</string>
 			<key>headerCellClass</key>
-			<string>NameCell</string>
+			<string>ColorCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+            <integer>1</integer>
+			<key>footerText</key>
+			<string>Change icons font to black or white</string>
 		</dict>
         <dict>
         	<key>PostNotification</key>
@@ -21,6 +29,8 @@
 			<string>com.lizynz.colorfont2</string>
 			<key>key</key>
 			<string>WhiteColor</string>
+			<key>icon</key>
+			<string>white.png</string>
 			<key>label</key>
 			<string>White Color</string>
 		</dict>
@@ -35,6 +45,8 @@
 			<string>com.lizynz.colorfont2</string>
 			<key>key</key>
 			<string>Chameleon</string>
+			<key>icon</key>
+			<string>chameleon.png</string>
 			<key>label</key>
 			<string>Chameleon Color</string>
 		</dict>
@@ -49,6 +61,8 @@
 			<string>com.lizynz.colorfont2</string>
 			<key>key</key>
 			<string>BlackColor</string>
+			<key>icon</key>
+			<string>black.png</string>
 			<key>label</key>
 			<string>Black Color</string>
 		</dict>
@@ -61,8 +75,20 @@
 			<string>PSLinkCell</string>
 			<key>action</key>
 			<string>flex</string>
+			<key>icon</key>
+			<string>flex.png</string>
 			<key>label</key>
 			<string>The tweak in Flex</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+			<string>PSLinkCell</string>
+			<key>action</key>
+			<string>github</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>Source code for GitHub</string>
 		</dict>
 	    <dict>
             <key>cell</key>

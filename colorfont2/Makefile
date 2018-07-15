@@ -3,7 +3,7 @@ ARCHS = armv7 armv7s arm64
 include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = ColorFont2
-ColorFont2_FILES = ColorFont2RootListController.m NameCell.m
+ColorFont2_FILES = $(wildcard *.m)
 ColorFont2_INSTALL_PATH = /Library/PreferenceBundles
 ColorFont2_FRAMEWORKS = UIKit
 ColorFont2_PRIVATE_FRAMEWORKS = Preferences

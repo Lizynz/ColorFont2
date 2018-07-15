@@ -1,12 +1,12 @@
 #import "Preferences.h"
 
-@interface NameCell : PSTableCell{
+@interface ColorCell : PSTableCell{
     UILabel *heading;
     UILabel *subtitle;
 }
 @end
 
-@implementation NameCell
+@implementation ColorCell
 
 - (void)layoutSubviews {
     [super layoutSubviews];
