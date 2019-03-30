@@ -1,8 +1,8 @@
-export ARCHS = armv7 armv7s arm64
+export ARCHS = armv7 armv7s arm64 arm64e
 DEBUG = 0
 export TARGET = iphone:clang:9.3
 
-PACKAGE_VERSION = 10.1
+PACKAGE_VERSION = 10.3
 
 export SYSROOT = $(THEOS)/sdks/iPhoneOS9.3.sdk
 
