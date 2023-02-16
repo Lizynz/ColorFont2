@@ -1,7 +1,5 @@
 # ColorFont2
 
-Change icons font to black or white
+Change icons font to black or white.
 
-- Support for all devices iOS 7.1 ~ 14.x
-
-![Preview](/IMG_0094.png)
+- Support for all devices iOS 7.1 ~ 15.x and iOS 16.x (palera1n).
