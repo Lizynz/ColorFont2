@@ -1,6 +1,6 @@
-Package: com.lizynz.colorfont2
+Package: com.lizynz.colorfont2.rootless
 Name: ColorFont2
-Depends: mobilesubstrate, firmware (>= 7.1)
+Depends: mobilesubstrate, firmware (>= 14.0)
 Version: 10.0
 Architecture: iphoneos-arm
 Description: Change icons font to black or white
